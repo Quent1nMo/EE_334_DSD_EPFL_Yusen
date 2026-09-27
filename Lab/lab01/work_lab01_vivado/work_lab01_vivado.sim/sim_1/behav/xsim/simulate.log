@@ -1,0 +1,3 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 90 ns : File "C:/Users/yusen/OneDrive/Desktop/courses_epfl_fall/courses_epfl_fall/EE-334 Digital System Design/Lab/lab01_vivado_handout/lab/src/toplevel_tb.vhdl" Line 123

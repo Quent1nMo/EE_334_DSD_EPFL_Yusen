@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Sep 27 17:33:00 2026
+# Process ID: 15648
+# Current directory: C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.runs/synth_1
+# Command line: vivado.exe -log toplevel.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source toplevel.tcl
+# Log file: C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.runs/synth_1/toplevel.vds
+# Journal file: C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source toplevel.tcl -notrace

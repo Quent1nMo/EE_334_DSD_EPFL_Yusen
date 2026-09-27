@@ -1,0 +1,174 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Sep 27 15:40:32 2026
+# Process ID: 19448
+# Current directory: C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16232 C:\Users\yusen\Desktop\courses_epfl_fall\EE_334_Digital_System_Design\EE_334_DSD_EPFL_Yusen\Lab\lab02\vivado_files\lab02\work_lab02_vivado.xpr
+# Log file: C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/vivado.log
+# Journal file: C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02'
+INFO: [Project 1-313] Project file moved from 'C:/Users/yusen/OneDrive/Desktop/courses_epfl_fall/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.gen/sources_1', nor could it be found using path 'C:/Users/yusen/OneDrive/Desktop/courses_epfl_fall/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AAAWorkspace/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 1282.094 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'pwm_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj pwm_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/lab02_colorled_handout/lab/src/pwm.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pwm'
+ERROR: [VRFC 10-1449] this construct is only supported in VHDL 1076-2008 [C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/lab02_colorled_handout/lab/src/pwm.vhdl:44]
+ERROR: [VRFC 10-3782] unit 'rtl' ignored due to previous errors [C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/lab02_colorled_handout/lab/src/pwm.vhdl:28]
+INFO: [VRFC 10-3070] VHDL file 'C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/lab02_colorled_handout/lab/src/pwm.vhdl' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1282.094 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property FILE_TYPE {VHDL 2008} [get_files *pwm.vhdl]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'pwm_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj pwm_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/lab02_colorled_handout/lab/src/pwm.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pwm'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/lab02_colorled_handout/lab/src/pwm_tb.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pwm_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.sim/sim_1/behav/xsim'
+"xelab -wto 8d0b7ad8866743a9b6203c02d7453d9e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot pwm_tb_behav xil_defaultlib.pwm_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/AAAWorkspace/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 8d0b7ad8866743a9b6203c02d7453d9e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot pwm_tb_behav xil_defaultlib.pwm_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.env
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture rtl of entity xil_defaultlib.pwm [pwm_default]
+Compiling architecture tb of entity xil_defaultlib.pwm_tb
+Built simulation snapshot pwm_tb_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.sim/sim_1/behav/xsim/xsim.dir/pwm_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Sep 27 15:50:04 2026...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1282.094 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "pwm_tb_behav -key {Behavioral:sim_1:Functional:pwm_tb} -tclbatch {pwm_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source pwm_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1282.094 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'pwm_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 1282.094 ; gain = 0.000
+run all
+Note: Pulse width 32768 cycles, expected 32768 good work!
+Time: 11796581 ns  Iteration: 0  Process: /pwm_tb/p_stim  File: C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/lab02_colorled_handout/lab/src/pwm_tb.vhdl
+Note: Pulse width 65536 cycles, expected 65536 good work!
+Time: 23593061 ns  Iteration: 0  Process: /pwm_tb/p_stim  File: C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/lab02_colorled_handout/lab/src/pwm_tb.vhdl
+Note: Pulse width 98304 cycles, expected 98304 good work!
+Time: 35389541 ns  Iteration: 0  Process: /pwm_tb/p_stim  File: C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/lab02_colorled_handout/lab/src/pwm_tb.vhdl
+Note: Pulse width 131072 cycles, expected 131072 good work!
+Time: 47186021 ns  Iteration: 0  Process: /pwm_tb/p_stim  File: C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/lab02_colorled_handout/lab/src/pwm_tb.vhdl
+Note: Pulse width 163840 cycles, expected 163840 good work!
+Time: 58982501 ns  Iteration: 0  Process: /pwm_tb/p_stim  File: C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/lab02_colorled_handout/lab/src/pwm_tb.vhdl
+Note: Pulse width 196608 cycles, expected 196608 good work!
+Time: 70778981 ns  Iteration: 0  Process: /pwm_tb/p_stim  File: C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/lab02_colorled_handout/lab/src/pwm_tb.vhdl
+Note: Pulse width 229376 cycles, expected 229376 good work!
+Time: 82575461 ns  Iteration: 0  Process: /pwm_tb/p_stim  File: C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/lab02_colorled_handout/lab/src/pwm_tb.vhdl
+$stop called at time : 82575541 ns : File "C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/lab02_colorled_handout/lab/src/pwm_tb.vhdl" Line 176
+create_wave_config
+Untitled 2
+add_wave /pwm_tb/*
+/pwm_tb/CLKxCI /pwm_tb/RSTxRI /pwm_tb/PushxSI /pwm_tb/LedxSO /pwm_tb/CLK_HIGH /pwm_tb/CLK_LOW /pwm_tb/CLK_PER /pwm_tb/CLK_STIM /pwm_tb/CLK_LIM /pwm_tb/CNT_ADD /pwm_tb/CNT_LIM
+current_wave_config {Untitled 1}
+WARNING: [Wavedata 42-16] Error Unable to get wave configuration 'Untitled 1'.
+Untitled 2
+save_wave_config {C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.sim/sim_1/behav/pwm_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.sim/sim_1/behav/pwm_tb_behav.wcfg
+set_property xsim.view C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.sim/sim_1/behav/pwm_tb_behav.wcfg [get_filesets sim_1]
+set_property is_enabled true [get_files  C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/lab02_colorled_handout/lab/src/toplevel.vhdl]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/lab02_colorled_handout/lab/constr/PYNQ-Z2_v1.0.xdc
+launch_runs synth_1 -jobs 8
+[Sun Sep 27 17:32:57 2026] Launched synth_1...
+Run output will be captured here: C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Sun Sep 27 17:35:10 2026] Launched impl_1...
+Run output will be captured here: C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1310.945 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.071 . Memory (MB): peak = 2001.969 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.075 . Memory (MB): peak = 2001.969 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2001.969 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:37 ; elapsed = 00:00:33 . Memory (MB): peak = 2144.969 ; gain = 840.773
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Sep 27 17:48:17 2026] Launched impl_1...
+Run output will be captured here: C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.runs/impl_1/runme.log

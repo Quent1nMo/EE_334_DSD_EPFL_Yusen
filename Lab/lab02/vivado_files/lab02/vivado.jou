@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Sep 27 15:40:32 2026
+# Process ID: 19448
+# Current directory: C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16232 C:\Users\yusen\Desktop\courses_epfl_fall\EE_334_Digital_System_Design\EE_334_DSD_EPFL_Yusen\Lab\lab02\vivado_files\lab02\work_lab02_vivado.xpr
+# Log file: C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/vivado.log
+# Journal file: C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+set_property FILE_TYPE {VHDL 2008} [get_files *pwm.vhdl]
+launch_simulation
+source pwm_tb.tcl
+run all
+create_wave_config
+add_wave /pwm_tb/*
+current_wave_config {Untitled 1}
+save_wave_config {C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.sim/sim_1/behav/pwm_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.sim/sim_1/behav/pwm_tb_behav.wcfg
+set_property xsim.view C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/vivado_files/lab02/work_lab02_vivado.sim/sim_1/behav/pwm_tb_behav.wcfg [get_filesets sim_1]
+set_property is_enabled true [get_files  C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/lab02_colorled_handout/lab/src/toplevel.vhdl]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse C:/Users/yusen/Desktop/courses_epfl_fall/EE_334_Digital_System_Design/EE_334_DSD_EPFL_Yusen/Lab/lab02/lab02_colorled_handout/lab/constr/PYNQ-Z2_v1.0.xdc
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1

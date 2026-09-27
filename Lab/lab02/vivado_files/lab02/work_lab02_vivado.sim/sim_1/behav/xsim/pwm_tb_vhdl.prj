@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl2008 xil_defaultlib  \
+"../../../../../../lab02_colorled_handout/lab/src/pwm.vhdl" \
+
+vhdl xil_defaultlib  \
+"../../../../../../lab02_colorled_handout/lab/src/pwm_tb.vhdl" \
+
+# Do not sort compile order
+nosort
